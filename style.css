@@ -17,7 +17,7 @@ body{
 }
 .register-box{
     padding-left: 15px;
-background-color: rgb(240, 236, 236);
+background-color: white;
 width: 50%;
 height: 100%;
 
@@ -40,44 +40,52 @@ display: flex;
 
 
   .email-box{
-    background-color: rgb(222, 220, 220);
+    background-color: rgb(239, 237, 237);
     height: 40px;
-    width: 95%;
+    width: 120%;
     border: none; 
     outline: 0;
     margin-top: -15px;
+    padding-left: 10px;
 }
 
 .pass-box{
-    background-color:  rgb(222, 220, 220);
+    background-color:  rgb(239, 237, 237);
     height: 40px;
-    width: 95%;
+    width: 120%;
     border: none;
     outline: 0;
     margin-top: -15px;
+    padding-left: 10px;
 }
 
 .cinfirm-box{
-    background-color: rgb(222, 220, 220);
+    background-color: rgb(239, 237, 237);
     height: 40px;
-    width: 95%;
+    width: 120%;
     border: none; 
     outline: 0;
     margin-top: -15px;
+    padding-left: 10px;
 }
 .submit-box{
     margin-top: 10px;
     background-color: rgb(61, 42, 184);
     height: 40px;
-    width: 100%;
+    width: 120%;
     color: white;
     opacity: 0.6;
   transition: 0.3s;
     
 }
 .submit-box:hover {
-    background-color: rgb(36, 18, 129);
+    background-color: rgb(106, 36, 211);
     color: white;
     cursor: pointer;
     opacity: 1;
   }
+
+
+a:hover span {
+    color: #9A1A4A;
+}
