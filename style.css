@@ -1,0 +1,83 @@
+
+body{
+    background-color: rgb(228, 232, 231);
+    display: flex;
+    justify-content: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+.outer-box{
+    padding: 5px;
+    width: 65%;
+    height: 500px;
+    background-color: white;
+    margin-top: 39px;
+    display: flex;
+
+}
+.register-box{
+    padding-left: 15px;
+background-color: rgb(240, 236, 236);
+width: 50%;
+height: 100%;
+
+}
+.img-box{
+    background-color: aquamarine;
+    width: 50%;
+height: 100%;
+}
+
+.img-box img{
+    width: 100%;
+    height: inherit;
+}
+
+.form{
+display: flex;
+}
+
+
+
+  .email-box{
+    background-color: rgb(222, 220, 220);
+    height: 40px;
+    width: 95%;
+    border: none; 
+    outline: 0;
+    margin-top: -15px;
+}
+
+.pass-box{
+    background-color:  rgb(222, 220, 220);
+    height: 40px;
+    width: 95%;
+    border: none;
+    outline: 0;
+    margin-top: -15px;
+}
+
+.cinfirm-box{
+    background-color: rgb(222, 220, 220);
+    height: 40px;
+    width: 95%;
+    border: none; 
+    outline: 0;
+    margin-top: -15px;
+}
+.submit-box{
+    margin-top: 10px;
+    background-color: rgb(61, 42, 184);
+    height: 40px;
+    width: 100%;
+    color: white;
+    opacity: 0.6;
+  transition: 0.3s;
+    
+}
+.submit-box:hover {
+    background-color: rgb(36, 18, 129);
+    color: white;
+    cursor: pointer;
+    opacity: 1;
+  }
